@@ -14,3 +14,13 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+ShowMessage("Se guardo");
+}
+//---------------------------------------------------------------------------
+
+
+
+
+

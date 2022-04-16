@@ -12,6 +12,7 @@
 #include <Vcl.ComCtrls.hpp>
 #include <Vcl.ExtCtrls.hpp>
 #include <Vcl.ToolWin.hpp>
+#include <Vcl.Menus.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -21,15 +22,7 @@ __published:	// IDE-managed Components
 	TLabel *Label1;
 	TButton *Button3;
 	TButton *Button4;
-	TEdit *Edit1;
-	TLabel *Label2;
-	TLabel *Label3;
-	TEdit *Edit2;
-	TLabel *Label4;
-	TEdit *Edit3;
-	TLabel *Label5;
-	TEdit *Edit4;
-	TButton *Button5;
+	void __fastcall Button5Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
